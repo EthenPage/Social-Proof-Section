@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+/* font-family: 'Spartan', sans-serif;     4,5,7 */
+
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    /* Primary Color */
+    --Dark-Magenta: hsl(300, 43%, 22%);
+    --Soft-Pink: hsl(333, 80%, 67%);
+
+    /* Neutral Color */
+    --Grayish-Magenta-dark: hsl(303, 10%, 53%);
+    --Grayish-Magenta-light: hsl(300, 24%, 96%);
+    --White: hsl(0, 0%, 100%);
+}
+
+body {
+    background-image: url(./images/bg-pattern-top-mobile.svg), url(./images/bg-pattern-bottom-mobile.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top 0 left 0, bottom 0 left 0;
+    background-size: contain;
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+}
+
+.social-proof {
+    max-width: 375px;
+    margin: 0 auto;
+}
+
+.proof-head {
+    margin: 50px 20px;
+    text-align: center;
+}
+
+.proof-head__title h1 {
+    color: var(--Dark-Magenta);
+    font-weight: 700;
+    margin: 0 30px 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 2rem;
+}
+
+.proof-head__title p {
+    color: var(--Grayish-Magenta-dark);
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.ratings__item {
+    background-color: var(--Grayish-Magenta-light);
+    margin: 15px 0;
+    padding: 15px 0;
+    border-radius: 10px;
+    color: var(--Dark-Magenta);
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.ratings__item img {
+    margin: 2px;
+    width: 15px;
+    height: 15px;
+    margin-bottom: 10px;
+}
+
+.proof-review {
+    margin: 0 20px;
+}
+
+.review-card {
+    background-color: var(--Dark-Magenta);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    color: var(--White);
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin: 30px;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 15%;
+}
+
+.name h3 {
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+}
+
+.name p {
+    color: var(--Soft-Pink);
+    letter-spacing: 0.5px;
+    font-size: 0.9rem;
+}
+
+.desc {
+    margin: 30px;
+    letter-spacing: 0.1px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+
+/* Extra */
+.attribution {
+    background-color: hsl(0, 0%, 28%);
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 12px;
+    text-align: center;
+    color: black;
+    font-weight: 700;
+  }
+
+  .attribution a {
+    color: rgb(202, 202, 105);
+    text-decoration: none;
+  }
