@@ -1,4 +1,4 @@
-# Frontend Mentor - Social proof section solution
+# Social Proof Section Sample
 
 This is a solution to the [Social proof section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA). 
 
@@ -10,7 +10,7 @@ Date: 3 April 2022.
 - [Screenshot](#screenshot)
 - [Links](#links)
 - [Author](#author)
-- [Date]
+- [Date](#date)
 
 ## Overview
 
@@ -20,13 +20,13 @@ Date: 3 April 2022.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://your-solution-url.com)
+- Live Site URL: [Live](https://ethenpage.github.io/Social-Proof-Section/)
 
 ## Author
 
 - Name: Mirza Ethen
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@EthenPage](https://www.frontendmentor.io/profile/ethenpage)
 
 ## Date
 
