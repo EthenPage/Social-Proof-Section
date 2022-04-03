@@ -128,9 +128,101 @@ body {
     text-align: center;
     color: black;
     font-weight: 700;
-  }
+}
 
-  .attribution a {
+.attribution a {
     color: rgb(202, 202, 105);
     text-decoration: none;
-  }
+}
+
+@media screen and (min-width: 1024px) {
+
+    body {
+        background-image: url(./images/bg-pattern-top-desktop.svg), url(./images/bg-pattern-bottom-desktop.svg);
+        background-position: top 0 left 0, bottom 0 right 0;
+        background-size: auto;
+    }
+
+    .social-proof {
+        max-width: 1440px;
+    }
+
+    .proof-head {
+        margin: 100px 100px 0;
+        text-align: left;
+        display: flex;
+        gap: 50px;
+    }
+
+    .proof-head__title,
+    .ratings {
+        width: 100%;
+    }
+
+    .proof-head__title{
+        max-width: 520px;
+    }
+
+    .proof-head__title h1 {
+        margin: 0 0 10px 0;
+        font-size: 2.8rem;
+        line-height: 1;
+    }
+
+    .proof-head__title p {
+        letter-spacing: 0;
+        padding-right: 10px;
+    }
+
+    .ratings{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .ratings__item {
+        display: flex;
+        align-items: center;
+        width: 440px;
+        
+        gap: 40px;
+        padding: 20px 40px;
+        margin: 10px;
+    }
+
+    .ratings__item:nth-child(1){
+        margin-right: 100px;
+    }
+
+    .ratings__item:nth-child(2){
+        margin-right: 50px;
+    }
+
+    .ratings__item img {
+        margin: 0;
+        width: 15px;
+        height: 15px;
+        margin-bottom: 0px;
+    }
+
+    .proof-review {
+        margin: 50px 100px 100px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 25px;
+    }
+
+    .review-card{
+        max-width: 33.33%;        
+    }
+
+    .review-card:nth-child(2){
+        margin-top: 20px;
+    }
+
+    .review-card:nth-child(3){
+        margin-top: 40px;
+    }
+
+}
