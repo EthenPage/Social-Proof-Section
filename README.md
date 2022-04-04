@@ -16,7 +16,7 @@ Date: 3 April 2022
 
 ## Screenshot
 
-![](./screenshot.png)
+![](./screenshot.jpg)
 
 ### Links
 
