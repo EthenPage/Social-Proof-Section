@@ -100,7 +100,7 @@ body {
     width: 15%;
 }
 
-.name h3 {
+.name h2 {
     margin-bottom: 5px;
     font-size: 0.9rem;
 }
@@ -184,7 +184,6 @@ body {
         display: flex;
         align-items: center;
         width: 440px;
-        
         gap: 40px;
         padding: 20px 40px;
         margin: 10px;
