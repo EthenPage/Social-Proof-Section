@@ -20,7 +20,7 @@ Date: 3 April 2022
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/social-proof-card-section-rk3f52DX9)
 - Live Site URL: [Live](https://ethenpage.github.io/Social-Proof-Section/)
 
 ## Author
